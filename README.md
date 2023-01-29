@@ -26,6 +26,7 @@ Run the demo:
 ```shell
 python main.py
 ```
+The **demo_image** folder contains gaze estimation results.
 
 ## Method
 
