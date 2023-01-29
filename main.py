@@ -1,5 +1,5 @@
 import cv2
-from gaze_estimate import GazeEstimate
+from gaze.gaze_estimate import GazeEstimate
 
 gaze = GazeEstimate()
 cap = cv2.VideoCapture(1)

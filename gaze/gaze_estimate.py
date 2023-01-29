@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 import cv2
 import mediapipe as mp
-from face_detector import FaceDetector
-from cam_cali import Calibration
+from gaze.face_detector import FaceDetector
+from gaze.cam_cali import Calibration
 import numpy as np
 
 
