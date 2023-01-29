@@ -6,14 +6,12 @@ This is a Gaze Estimation application that provides a **webcam-based gaze estima
 # Gaze_Estimation
 
 This is a Gaze Estimation application that provides a **webcam-based eye tracking system**. It is a simple demo solution for Amplified Intelligence interview.
->>>>>>> f6f67a03a3f743f3ffcc6cbcf787c238f505e2ab
 
 ## Installation
 
 Clone this project:
 
 ```shell
-<<<<<<< HEAD
 git clone https://github.com/MarkCrux/Gaze_Estimation.git
 ```
 
@@ -25,7 +23,6 @@ git clone https://github.com/antoinelame/GazeTracking.git
 
 ### For Pip install
 Install these dependencies (NumPy, OpenCV, Dlib):
->>>>>>> f6f67a03a3f743f3ffcc6cbcf787c238f505e2ab
 
 ```shell
 pip install -r requirements.txt
@@ -101,11 +98,3 @@ This project is released by Yuchen Wei under the terms of the MIT Open Source Li
 > The Dlib library has four primary prerequisites: Boost, Boost.Python, CMake and X11/XQuartx. If you doesn't have them, you can [read this article](https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/) to know how to easily install them.
 
 
-### For Anaconda install
-Install these dependencies (NumPy, OpenCV, Dlib):
-
-```shell
-conda env create --file environment.yml
-#After creating environment, activate it
-conda activate GazeTracking
->>>>>>> f6f67a03a3f743f3ffcc6cbcf787c238f505e2ab
