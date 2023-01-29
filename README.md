@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Gaze Estimation
 
 This is a Gaze Estimation application that provides a **webcam-based gaze estimation system**. It is a simple demo solution for the Amplified Intelligence interview.
