@@ -63,11 +63,11 @@ class GazeEstimate(object):
     def eye_direction(self):
         left_eye_w = abs(self.left_eye[0][0]-self.left_eye[1][0]) # left eye width
         left_iris = abs(self.left_eye[2][0]-self.left_eye[1][0]) # iris center to left eye point
-        left_ratio = left_iris / (left_eye_w - 10)
+        left_ratio = left_iris / (abs(left_eye_w - 10) + 1e-5)
 
         right_eye_w = abs(self.right_eye[0][0] - self.right_eye[1][0]) # right eye width
         right_iris = abs(self.right_eye[2][0] - self.right_eye[0][0]) # iris center to right eye point
-        right_ratio = right_iris / (right_eye_w - 10)
+        right_ratio = right_iris / (abs(right_eye_w - 10) + 1e-5)
 
         return (left_ratio + right_ratio)/2 # average move ratio for two eyes
 
